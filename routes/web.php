@@ -28,6 +28,7 @@ Route::get('/threeD', 'App\Http\Controllers\PagesController@threeD');
 Route::get('/twoD', 'App\Http\Controllers\PagesController@twoD');
 Route::get('/motionGraphics', 'App\Http\Controllers\PagesController@motionGraphics');
 Route::get('/logoAnimation', 'App\Http\Controllers\PagesController@logoAnimation');
+Route::get('/invoices', 'App\Http\Controllers\PagesController@invoices');
 //Route::get('/contact', 'App\Http\Controllers\PagesController@contact');
 
 Route::resource('contacts', 'App\Http\Controllers\ContactsController');

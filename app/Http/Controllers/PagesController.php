@@ -34,4 +34,8 @@ class PagesController extends Controller
     {
        return view('logoAnimation');
     }
+    public function invoices()
+    {
+       return view('invoices');
+    }
 }
