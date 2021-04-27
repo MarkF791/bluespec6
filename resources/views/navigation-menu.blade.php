@@ -16,6 +16,7 @@
                         {{ __('Dashboard') }}
                     </x-jet-nav-link>
                     <x-jet-nav-link href="{{ url('/invoices') }}" :active="request()->routeIs('invoices')">{{ __('Invoices') }}</x-jet-nav-link>
+                    <x-jet-nav-link href="{{ url('/videos') }}" :active="request()->routeIs('videos')">{{ __('Videos') }}</x-jet-nav-link>
                 </div>
             </div>
 

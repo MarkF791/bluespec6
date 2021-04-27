@@ -38,4 +38,8 @@ class PagesController extends Controller
     {
        return view('invoices');
     }
+    public function videos()
+    {
+       return view('videos');
+    }
 }
