@@ -143,6 +143,8 @@
             <x-jet-responsive-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
             </x-jet-responsive-nav-link>
+            <x-jet-responsive-nav-link href="{{ url('/invoices') }}" :active="request()->routeIs('invoices')">{{ __('Invoices') }}</x-jet-responsive-nav-link>
+            <x-jet-responsive-nav-link href="{{ url('/videos') }}" :active="request()->routeIs('videos')">{{ __('Videos') }}</x-jet-responsive-nav-link>
         </div>
 
         <!-- Responsive Settings Options -->
