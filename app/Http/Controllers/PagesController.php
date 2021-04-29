@@ -34,6 +34,22 @@ class PagesController extends Controller
     {
        return view('logoAnimation');
     }
+    public function clientthreeD()
+    {
+       return view('clientthreeD');
+    }
+    public function clienttwoD()
+    {
+       return view('clienttwoD');
+    }
+    public function clientmotionGraphics()
+    {
+       return view('clientmotionGraphics');
+    }
+    public function clientlogoAnimation()
+    {
+       return view('clientlogoAnimation');
+    }
     public function invoices()
     {
        return view('invoices');

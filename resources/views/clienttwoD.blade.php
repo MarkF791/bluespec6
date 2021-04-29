@@ -1,4 +1,4 @@
-@extends ('layouts.layout')
+@extends ('layouts.clientlayout')
 
 @section('content')
 <div id='white_div' class="container-fluid" style="background-color:black; padding-top:50px">
